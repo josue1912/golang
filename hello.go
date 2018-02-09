@@ -6,6 +6,7 @@ import (
 	"io"
 	"net/http"
 	"os"
+	"strconv"
 	"strings"
 	"time"
 )
@@ -33,6 +34,16 @@ func main() {
 	}
 }
 
+func registraLog(site string, status bool) {
+	arquivo, err := os.OpenFile("log.txt", os.O_RDWR|os.O_CREATE|os.O_APPEND, 0666)
+	if err != nil {
+		fmt.Println(err)
+	}
+	arquivo.WriteString("site:" + site + " - online:" + strconv.FormatBool(status) + "\n")
+
+	arquivo.Close()
+}
+
 func leSitesDoArquivo() []string {
 	var sites []string
 	// arquivo, err := os.Open("sites.txt")
@@ -53,6 +64,7 @@ func leSitesDoArquivo() []string {
 			}
 		}
 	}
+	arquivo.Close()
 	return sites
 }
 
@@ -75,8 +87,10 @@ func testaSite(site string) {
 	} else {
 		if resp.StatusCode == 200 {
 			fmt.Println("Site:", site, "Resposta:", resp.StatusCode)
+			registraLog(site, true)
 		} else {
 			fmt.Println("Site:", site, "esta com problema:", resp.StatusCode)
+			registraLog(site, false)
 		}
 	}
 }

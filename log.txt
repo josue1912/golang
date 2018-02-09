@@ -1,0 +1,36 @@
+https://random-status-code.herokuapp.com-false
+https://www.alura.com.br-true
+https://www.caelum.com.br-true
+https://www.casadocodigo.com.br-true
+http://www.g1.com.br-true
+https://www.google.com-true
+https://random-status-code.herokuapp.com-false
+https://www.alura.com.br-true
+https://www.caelum.com.br-true
+https://www.casadocodigo.com.br-true
+http://www.g1.com.br-true
+https://www.google.com-true
+https://random-status-code.herokuapp.com-false
+https://www.alura.com.br-true
+https://www.caelum.com.br-true
+https://www.casadocodigo.com.br-true
+http://www.g1.com.br-true
+https://www.google.com-true
+site:https://random-status-code.herokuapp.com - online:true
+site:https://www.alura.com.br - online:true
+site:https://www.caelum.com.br - online:true
+site:https://www.casadocodigo.com.br - online:true
+site:http://www.g1.com.br - online:true
+site:https://www.google.com - online:true
+site:https://random-status-code.herokuapp.com - online:false
+site:https://www.alura.com.br - online:true
+site:https://www.caelum.com.br - online:true
+site:https://www.casadocodigo.com.br - online:true
+site:http://www.g1.com.br - online:true
+site:https://www.google.com - online:true
+site:https://random-status-code.herokuapp.com - online:false
+site:https://www.alura.com.br - online:true
+site:https://www.caelum.com.br - online:true
+site:https://www.casadocodigo.com.br - online:true
+site:http://www.g1.com.br - online:true
+site:https://www.google.com - online:true
