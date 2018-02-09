@@ -34,3 +34,21 @@ site:https://www.caelum.com.br - online:true
 site:https://www.casadocodigo.com.br - online:true
 site:http://www.g1.com.br - online:true
 site:https://www.google.com - online:true
+09/02/2018 11:43:51 - https://random-status-code.herokuapp.com - online:false
+09/02/2018 11:43:52 - https://www.alura.com.br - online:true
+09/02/2018 11:43:53 - https://www.caelum.com.br - online:true
+09/02/2018 11:43:53 - https://www.casadocodigo.com.br - online:true
+09/02/2018 11:43:53 - http://www.g1.com.br - online:true
+09/02/2018 11:43:54 - https://www.google.com - online:true
+09/02/2018 11:43:57 - https://random-status-code.herokuapp.com - online:true
+09/02/2018 11:43:57 - https://www.alura.com.br - online:true
+09/02/2018 11:43:58 - https://www.caelum.com.br - online:true
+09/02/2018 11:43:58 - https://www.casadocodigo.com.br - online:true
+09/02/2018 11:43:58 - http://www.g1.com.br - online:true
+09/02/2018 11:43:59 - https://www.google.com - online:true
+09/02/2018 11:44:01 - https://random-status-code.herokuapp.com - online:false
+09/02/2018 11:44:01 - https://www.alura.com.br - online:true
+09/02/2018 11:44:02 - https://www.caelum.com.br - online:true
+09/02/2018 11:44:03 - https://www.casadocodigo.com.br - online:true
+09/02/2018 11:44:03 - http://www.g1.com.br - online:true
+09/02/2018 11:44:03 - https://www.google.com - online:true
