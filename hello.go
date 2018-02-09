@@ -3,6 +3,10 @@ package main
 import "fmt"
 import "os"
 import "net/http"
+import "time"
+
+const monitoramentos = 3
+const delay = 2
 
 func main() {
 
@@ -32,9 +36,14 @@ func iniciarMonitoramento() {
 		"https://www.alura.com.br",
 		"https://www.caelum.com.br"}
 
-	for _, site := range sites {
-		testaSite(site)
+	for i := 0; i < monitoramentos; i++ {
+		for _, site := range sites {
+			testaSite(site)
+		}
+		fmt.Println("-------------------------------------")
+		time.Sleep(delay * time.Second)
 	}
+
 }
 
 func testaSite(site string) {
